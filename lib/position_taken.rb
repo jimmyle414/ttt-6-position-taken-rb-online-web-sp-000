@@ -2,5 +2,6 @@
 
 board = ["X", "X","nil", " "," ", " "," ", " ","O"]
 def position_taken(board, index)
-  index = board[location.to_i]
+  index = board[location.to_i-1]
+  
 end
